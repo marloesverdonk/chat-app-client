@@ -1,9 +1,12 @@
+import { ADD_MESSAGES } from '../actions'
 
-const message = (state = [], action = {}) => {
+const messages = (state = [], action = {}) => {
   switch(action.type){
+    case ADD_MESSAGES:
+      return action.payload
     default: 
       return state
   }
 }
 
-export default message
+export default messages

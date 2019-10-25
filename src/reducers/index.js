@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux'
-import message from './message'
+import messages from './message'
 
 export default combineReducers({
-  message
+  messages
 })
