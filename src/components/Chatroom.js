@@ -11,7 +11,7 @@ class Chatroom extends React.Component {
   source = new EventSource(`${url}/stream`)
 
   componentDidMount() {
-  console.log('component did mount')
+ // console.log('component did mount')
 
     this.source.onmessage = event => {
       //   console.log('Got a message', event)
