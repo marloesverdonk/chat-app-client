@@ -26,7 +26,6 @@ export default class ChatroomForm extends React.Component {
   render() {
     return (<div>
       <form onSubmit={this.onSubmit}>
-
         <input
           name='messageForm'
           type='text'
